@@ -7,7 +7,7 @@ import os
 Lock = threading.Lock()
 def main():
 		try:
-			in_file = open("D:\list.txt","r")
+			in_file = open("list.txt","r")
 		except:
 			raw_input('You need a list.txt file to work')
 			sys.exit(0)
